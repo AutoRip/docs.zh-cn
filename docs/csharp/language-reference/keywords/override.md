@@ -46,7 +46,7 @@ ms.lasthandoff: 03/13/2017
   
  `override` 方法提供从基类继承的成员的新实现。 通过 `override` 声明重写的方法称为重写基方法。 重写基方法必须具有与 `override` 方法相同的签名。 有关继承的信息，请参阅[继承](../../../csharp/programming-guide/classes-and-structs/inheritance.md)。  
   
- 不能重新非虚方法或静态方法。 重写基方法必须是 `virtual`、`abstract` 或 `override`。  
+ 不能重写非虚方法或静态方法。 重写基方法必须是 `virtual`、`abstract` 或 `override`。  
   
  `override` 声明不能更改 `virtual` 方法的可访问性。 `override` 方法和 `virtual` 方法必须具有相同[级别访问修饰符](../../../csharp/language-reference/keywords/access-modifiers.md)。  
   
